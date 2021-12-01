@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31911.196
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Webgioithieu", "Webgioithieu\Webgioithieu.csproj", "{C6D676B5-F80B-488C-B203-3558FD7DAF3E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C6D676B5-F80B-488C-B203-3558FD7DAF3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6D676B5-F80B-488C-B203-3558FD7DAF3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6D676B5-F80B-488C-B203-3558FD7DAF3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6D676B5-F80B-488C-B203-3558FD7DAF3E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {86E22F08-4AD1-481D-9D78-D77608116A28}
+	EndGlobalSection
+EndGlobal

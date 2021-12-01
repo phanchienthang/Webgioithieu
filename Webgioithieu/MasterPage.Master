@@ -1,0 +1,106 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="Webgioithieu.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Website giới thiệu công ty phần mềm</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="container">
+            <div>
+                <div class="top" style="background-image: url('Images/Design/banner.png'); height:130px; background-position: center center">
+                </div>
+                <div class="nav">
+                    <div class="menu">
+                        <ul>
+                            <li><a>Trang chủ</a></li>
+                            <li><a>Trang chủ</a></li>
+                            <li><a>Trang chủ</a></li>
+                            <li><a>Trang chủ</a></li>
+                            <li><a>Trang chủ</a></li>
+                            <li><a>Trang chủ</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="center">
+                <asp:ContentPlaceHolder ID="CenterContent" runat="server"></asp:ContentPlaceHolder>
+            </div>
+            <div class="centerRight">
+                <div class="new">
+                    <h3><span><b>Tin Mới</b></span></h3>
+                    <ul>
+                        <asp:Repeater ID="rptNews" runat="server">
+                            <ItemTemplate>
+                                <li><a href="New.aspx?idNew=<%#Eval("NewID")%> "><span>
+                                    <%#Eval("Title")%></span></a></li>
+                            </ItemTemplate>
+                        </asp:Repeater>
+                    </ul>
+                </div>
+                <div class="NavRight">
+                    <div class="lc-Box">
+                        <div class="lr-box-l"></div>
+                        <div class="lr-box-c">
+                            <span>Danh Mục</span>
+                        </div>
+                        <div class="lr-box-r"></div>
+                    </div>
+                    <div class="eventDanhmuc">
+                        <ul class="danhmuc">
+                            <asp:Repeater ID="rptDanhmuc" runat="server">
+                                <ItemTemplate>
+                                    <li><a href="EnvironmentalEquipment.aspx?id=<%#Eval("EquipmentID")%>"><span>
+                                        <%#Eval("NameEquipment")%></span></a></li>
+                                </ItemTemplate>
+                            </asp:Repeater>
+                        </ul>
+                    </div>
+                </div>
+                <div class="trungbay">
+                    <div class="lc-box">
+                        <div class="lr-box-l"></div>
+                        <div class="lr-box-c">
+                            <span>Các thiết bị nổi bật</span></div>
+                        <div class="lr-box-r"></div>
+                    </div>
+                    <div style="width:100%; margin-right:0px;height:87%;">
+                        <marquee behavior="scroll" onmouseover="this.stop()"onmouseout="this.start()" direction="up"
+                            scrollamount="4" height="100%" width="100%">
+                            <div class="spTrungbay">
+                                <img src="Images/SanPham/caycanh02.jpg" style="width:70px; height:70px;"/>                                
+                                <span>Đây là sản phẩm mới ra mắt tại hệ thống</span>
+                            </div>
+                            <div class="spTrungbay">
+                                <img src="Images/SanPham/caycanh02.jpg" style="width:70px; height:70px;"/>                                
+                                <span>Đây là sản phẩm mới ra mắt tại hệ thống</span>
+                            </div>
+                            <div class="spTrungbay">
+                                <img src="Images/SanPham/caycanh02.jpg" style="width:70px; height:70px;"/>                                
+                                <span>Đây là sản phẩm mới ra mắt tại hệ thống</span>
+                            </div>
+                            <div class="spTrungbay">
+                                <img src="Images/SanPham/caycanh02.jpg" style="width:70px; height:70px;"/>                                
+                                <span>Đây là sản phẩm mới ra mắt tại hệ thống</span>
+                            </div>
+                            <div class="spTrungbay">
+                                <img src="Images/SanPham/caycanh02.jpg" style="width:70px; height:70px;"/>
+                                <span>Đây là sản phẩm mới ra mắt tại hệ thống</span>
+                            </div>
+                        </marquee>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <h3>Bài tập lập trình nhóm 13 - giới thiệu công ty</h3>
+        </div>
+    </form>
+</body>
+</html>

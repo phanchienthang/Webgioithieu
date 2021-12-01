@@ -1,0 +1,26 @@
+﻿.bottom
+{
+	margin: 0 auto;
+	width: 860px;
+	height: 70px;
+	text-align: center;
+	font: 500 12px Arial;
+	padding: 20px;
+	font-weight: normal;
+	border:solid thin #0299D2;
+}
+.bottom h3
+{
+	font: 500 12px Arial;
+	
+}
+.bannerManager1
+{
+	border: thin solid #e1e1e1;
+	width: 900px;
+	margin:0 auto;
+	padding-right: 0px;
+	height: 110px;
+	background-image:url("../ImagesManage/Untitled-1.jpg");
+	background-repeat:no-repeat;
+}

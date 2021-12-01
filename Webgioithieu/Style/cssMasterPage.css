@@ -1,0 +1,521 @@
+﻿*
+{
+	margin: 0;
+	padding: 0;
+}
+body
+{
+	border: 0 none;
+	color: #000000;
+	font: 500 12px Arial;
+	margin: 0;
+	outline: 0 none;
+	padding: 0;
+}
+
+.bd
+{
+	width: 1004px;
+	margin: auto;
+	overflow: hidden;
+}
+
+.bd
+{
+	width: 1004px;
+	margin: auto;
+	overflow: hidden;
+}
+.top
+{
+	height: 150px;
+	width: 100%;
+	background-color: Transparent;
+}
+.na
+{
+	background-position: left center;
+	width: 100%;
+	height: 30px;
+	padding-top: 3px;
+	border: solid thin #f0f0f0; /*background-image: url(                      "../Images/Giaodien/TopMenu.gif" );*/
+	background-color: #0299D2;
+	background-image:url("../Images/Design/200-Center.gif");
+	background-repeat:repeat-x;
+	background-position:left 0px;
+	background-repeat: repeat-x;
+}
+.NAV
+{
+	width: 100%;
+	height: 30px;
+	float: right;
+}
+.NAV ul
+{
+	width: 100%;
+	height: 28px;
+	list-style: none outside none;
+	position: absolute;
+}
+.NAV ul li
+{
+	display: inline;
+	float: left;
+	height: 30px;
+	padding-left: 10px;
+}
+.NAV ul li ul
+{
+	display: none;
+	position: absolute;
+	margin-top: 30px;
+	margin-left: 0px;
+	background-color: #049BE2;
+	height: auto;
+	width: 250px;
+	list-style-type: inherit;
+	padding-left: 0px;
+	position: absolute;
+}
+.NAV ul li ul li
+{
+	padding: 0;
+	width: 100%;
+}
+.NAV ul li ul li a
+{
+	width: 100%;
+	height: 92%;
+	margin: 0;
+}
+.NAV ul li ul li a:hover
+{
+	text-decoration: underline;
+}
+.NAV ul li ul li:hover
+{
+	text-decoration: underline;
+}
+.NAV ul li ul li a b:hover
+{
+	text-decoration: underline;
+}
+.NAV ul li ul li a b
+{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+.NAV ul li ul li a b span
+{
+	margin-left: 8px;
+	margin-right: 8px;
+	float: left;
+	margin-top: 2px;
+}
+.NAV ul li a
+{
+	color: #FFFFFF;
+	text-decoration: none;
+	height: 92%;
+		border-radius: 6px;
+	line-height: 30px;
+	float: left;
+	font: 500 11px/20px Tahoma;
+	width: 100%;
+	
+}
+.NAV ul li a b
+{
+	color: #FFFFFF;
+	text-decoration: none;
+	height: 30px;
+	float: left;
+}
+.NAV ul li a b span
+{
+	margin-left: 8px;
+	margin-right: 8px;
+	float: left;
+	margin-top: 2px;
+}
+.NAV ul li a:hover
+{
+	background: url(                                "../Images/Design/aHover.gif" ) repeat scroll left transparent;
+}
+.NAV ul li:hover ul
+{
+	display: block;
+}
+
+
+.center
+{
+	width: 74%;
+	overflow: hidden;
+	border: solid thin #f0f0f0;
+	background-color: White;
+	float: left;
+}
+
+.centerLeft
+{
+	width: 20%;
+	float: left;
+	height: 100%;
+	border-right: solid thin #f0f0f0;
+}
+.NAVLeft
+{
+	width: 100%;
+	height: 300px;
+	border-bottom: solid thin #f0f0f0;
+	font: 500 13px Tahoma;
+}
+.NAVLeft ul
+{
+	height: 300px;
+	float: left;
+	width: 100%;
+}
+
+.NAVLeft ul li
+{
+	list-style: none;
+	float: left;
+	width: 100%;
+	background: url(       '../Images/Design/ul-L.png' );
+	height: 25px;
+	top: 0px;
+	left: 0;
+	position: relative;
+}
+.NAVLeft ul li a
+{
+	font: 500 12px/20px Tahoma;
+	text-decoration: none;
+	float: left;
+	width: 100%;
+	height: 100%;
+	color: White;
+	background: url(                      "../Images/Design/ul-L1.png" )no-repeat scroll left transparent;
+}
+.NAVLeft ul li a:hover
+{
+	text-decoration: underline;
+}
+.NAVLeft ul li a span
+{
+	float: left;
+	width: 88%;
+	height: 100%;
+	padding-left: 25px;
+}
+
+.NAVLeft ul li ul
+{
+	width: 100%;
+	margin-top: 0;
+	left: 0;
+}
+.NAVLeft ul li ul li a
+{
+	background: none;
+}
+.bottom
+{
+	width: 100%;
+	height: 110px;
+	text-align: center;
+	background: url(                      "../Images/Design/bg.ltr.jpg" )no-repeat scroll center bottom transparent;
+}
+.phantrang
+{
+	text-align: center;
+	padding-right: 8px;
+	font-weight: bold;
+}
+.centerRight
+{
+	float: right;
+	width: 25.5%;
+}
+.contentMP
+{
+	width: 100%;
+	float: right;
+}
+.LR-box-L
+{
+	background-position: left center;
+	width: 8px;
+	height: 28px;
+	float: left;
+	overflow: hidden;
+	background-image: url(              '../Images/Design/200-Left.gif' );
+	background-repeat: no-repeat;
+}
+.LC-box
+{
+	width: 100%;
+	height: 28px;
+	background-position: left center;
+	background-image: url(             '../Images/Design/200-Center.gif' );
+	background-repeat: repeat-x;
+}
+.LR-box-C
+{
+	float: left;
+	height: 100%;
+	background: url(       "../Images/Design/newnew.gif" ) no-repeat 3px center;
+}
+.LR-box-C span
+{
+	margin-top: 7px;
+	float: left;
+	margin-left: 35px;
+	font-weight: bold;
+	color: #FFFFFF;
+	height: 15px;
+}
+.LR-box-R
+{
+	background-position: left center;
+	width: 8px;
+	height: 28px;
+	float: right;
+	overflow: hidden;
+	background-image: url(            '../Images/Design/200-Right.gif' );
+	background-repeat: no-repeat;
+}
+.event
+{
+	height: 300px;
+	border: solid 2px #0299D2;
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+}
+.event ul
+{
+	/*list-style-image: url( "../Images/Design/ico.gif" );*/
+	list-style: none;
+	float: left;
+	width: 95%;
+	margin: 8px;
+	margin-top: 3px;
+	margin-left: 0;
+	padding-left: 8px;
+	overflow: hidden;
+	height: 100%;
+}
+.event ul li
+{
+	width: 95%;
+	float: left;
+	padding-left: 10px;
+	background-image: url(           "../Images/Design/icon_arrow.gif" );
+	background-repeat: no-repeat;
+	background-position: left 10px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	text-align: justify;
+}
+.event ul li a
+{
+	text-decoration: none;
+	color: #004175;
+	text-align: justify;
+}
+.event ul li a:hover
+{
+	text-decoration: underline;
+}
+.trungbay
+{
+	margin-top: 3px;
+	width: 100%;
+	border: solid thin #94bfdb;
+	border-top: none;
+	height: 300px;
+}
+.video
+{
+	margin-top: 3px;
+	width: 100%;
+	border: solid thin #94bfdb;
+	border-top: none;
+	height: 379px;
+}
+.news
+{
+	width: 99%;
+	margin-top: 6px;
+	border: solid thin #f0f0f0;
+	height: 300px;
+	margin-right: 0;
+}
+.news ul
+{
+	/*list-style-image: url( "../Images/Design/ico.gif" );*/
+	list-style: none;
+	float: left;
+	width: 98%;
+	margin-top: 3px;
+	margin-left: 0;
+	padding-left: 8px;
+	overflow: hidden;
+	height: 250px;
+}
+.news h3
+{
+	height: 25px;
+	font: 700 12px/23px Arial;
+	background: url(        "../Images/Design/nenMuc.gif" ) left;
+}
+.news h3 span
+{
+	width: 88%;
+	float: left;
+	margin-top: 0px;
+	margin-left: 0;
+	padding-left: 30px;
+	color: White;
+	background: url(        "../Images/Design/newnew.gif" ) no-repeat left center;
+}
+
+.news ul li
+{
+	width: 94%;
+	float: left;
+	padding-left: 10px;
+	background-image: url(         "../Images/Design/ico.gif" );
+	background-repeat: no-repeat;
+	background-position: 1px 9px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	text-align: justify;
+}
+.news ul li a
+{
+	text-decoration: none;
+	color: #004175;
+	text-align: justify;
+}
+.news ul li a:hover
+{
+	color: Red;
+}
+.danhmuc
+{
+	list-style: none;
+	margin-top: 0;
+	padding: 0;
+	overflow: hidden;
+	margin: 0;
+}
+.danhmuc li
+{
+	float: left;
+	background-image: url(              "../Images/Design/IconMenu.gif" );
+	background-repeat: no-repeat;
+	background-position: -5px 4px;
+	text-align: justify;
+	width: 100%;
+}
+.danhmuc li a span:hover
+{
+	color: White;
+	background-image: url(                "../Images/Design/aHover.gif" );
+	background-repeat: repeat-x;
+	background-position: left center;
+}
+.danhmuc li a
+{
+	text-decoration: none;
+	color: #004175;
+	text-align: justify;
+	padding-left: 21px;
+	float: left;
+	width: 93%;
+	text-transform:lowercase;
+}
+.danhmuc li a span
+{
+	width: 98%;
+	float: left;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 3px;
+}
+.HoTro
+{
+	width: 100%;
+	height: 230px;
+}
+.eventHoTro
+{
+	height: 190px;
+	border: solid 1px #EEEEEE;
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+}
+
+.trungbaydiv
+{
+	padding: 5px;
+	height: 80px;
+}
+.trungbaydiv span
+{
+	float: right;
+	width: 170px;
+	font-weight: inherit;
+}
+.trungbaydiv img
+{
+	float: left;
+}
+.videodev
+{
+	width: 100%;
+	height: 150px;
+}
+.videodev ul
+{
+	padding-left: 1px;
+	margin: 0;
+	width: 100%;
+	overflow: scroll;
+}
+.videodev ul li
+{
+	background: url("../Images/Design/video-icon.gif") no-repeat 3px center;
+	width: 90%;
+	border-bottom: solid 0.2px #EEEEEE;
+	padding-left: 20px;
+	padding-right: 3px;
+}
+.Navright
+{
+	margin-top:3px;
+	}
+.Navright ul
+{
+	border:solid thin #0299D2;
+	}
+.bottom
+{
+	margin: 0 auto;
+	width: 963px;
+	height: 75px;
+	background: url( "../Images/Design/bottom.gif" ) repeat-x;
+	text-align: center;
+	font: 500 12px Arial;
+	padding: 20px;
+	font-weight:normal;
+}
+.bottom h3
+{
+		font: 500 12px Arial;
+	}

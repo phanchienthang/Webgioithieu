@@ -1,0 +1,53 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Manages.master.cs" Inherits="Webgioithieu.Manages.Manages" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="styleManages/MasterManage.css" rel="stylesheet" type="text/css" />
+    <link href="styleManages/style-Manager-Menu.css" rel="stylesheet" type="text/css" />
+    <link href="styleManages/style-Manager.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div style="background:url( "#" ) repeat-x center bottom">
+        <div style="width: 900px; margin: 0 auto; text-align: right">
+            <asp:Label runat="server" ID="lblPersonPostNewCode"></asp:Label>
+            <asp:HyperLink runat="server" ID="hlLogin" NavigateUrl="/WebInformation/Manager/TaiKhoan/pageDangNhap.aspx">Đăng nhập</asp:HyperLink>&nbsp;|
+            <asp:HyperLink runat="server" ID="hlRegister" NavigateUrl="/WebInformation/Manager/TaiKhoan/pageDangKy.aspx">Đăng ký</asp:HyperLink>&nbsp;|
+            <asp:HyperLink runat="server" ID="hlMyAccountInfo" NavigateUrl="/WebInformation/Manager/TaiKhoan/pageChinhSuaTaiKhoanBanThan.aspx">Tài khoản bản thân</asp:HyperLink>|
+            <asp:LinkButton runat="server" ID="lbSightOut">Đăng xuất</asp:LinkButton>
+            <%-- <asp:LinkButton OnClientClick="return SightOut();" runat="server" ID="LinkButton1"
+            OnClick="lbSightOut_Click">Đăng xuất</asp:LinkButton>--%>
+        </div>
+        <div class="bannerManager1"></div>
+        <div id="multi-level">
+            <ul class="menu">
+                <li class="top"><a href="pageTrangChu.aspx" id="home" class="top_link"><b class="b_top">
+                </b><span class="span_top">Trang chủ</span></a> </li>
+                <li class="top"><a href="pageTrangChu.aspx" id="A1" class="top_link"><b class="b_top">
+                </b><span class="span_top">Quản lý tài khoản</span></a> </li>
+                <li class="top"><a href="pageTrangChu.aspx" id="A2" class="top_link"><b class="b_top">
+                </b><span class="span_top">Quản lý danh mục sản phẩm</span></a> </li>
+                <li class="top"><a href="pageTrangChu.aspx" id="A3" class="top_link"><b class="b_top">
+                </b><span class="span_top">Quản lý tin tức</span></a> </li>
+                <li class="top"><a href="pageTrangChu.aspx" id="A4" class="top_link"><b class="b_top">
+                </b><span class="span_top">Thống kê</span></a> </li>
+            </ul>
+        </div>
+        <div style="border: thin solid #f0f0f0; width: 900px; margin: 0 auto">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+            <div class="bottom">
+            <h3>
+                Nhóm 13 lập trình web - đề tài giới thiệu công ty phần cứng<br />
+            </h3>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

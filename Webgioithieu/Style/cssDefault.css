@@ -1,0 +1,105 @@
+﻿.New
+{
+	width: 100%;
+}
+.Produce
+{
+	width: 29%;
+	height: auto;
+	float: right;
+}
+
+.tieudetrungbay
+{
+	background-image: url(             "../Images/Design/headMuc.png" );
+	background-repeat: repeat-x;
+	background-position: right center;
+	width: 228px;
+	height: 35px;
+	margin-left: -8px;
+}
+.tieudetrungbay span
+{
+	float: left;
+	width: 100%;
+	height: 100%;
+	background-image: url(     '../Images/Design/headMuc.png' );
+	background-position: left top;
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+.tieudetrungbay span h4
+{
+	margin-left: 40px;
+	margin-top: 3px;
+	color: White;
+}
+.lw50h200
+{
+	border-left: thin solid #eaf5fb;
+	border-right: thin solid #eaf5fb;
+	border-bottom: thin solid #eaf5fb;
+	border-top: none;
+	width: 100%;
+	height: 230px;
+	float: left;
+}
+.slide
+{
+	width: 66%;
+	border: solid thin #049BE2;
+	position: relative;
+	height: 328px;
+}
+
+
+.header
+{
+	width: 100%;
+	height: 310px;
+}
+.anh
+{
+	height: 100px;
+	border-bottom:solid thin #f0f0f0;
+	border-right:solid thin #f0f0f0;
+}
+.content
+{
+	width:100%;
+}
+.NAVLeft
+{
+	width: 160px;
+	padding: 3px;
+	margin-top: 10px;
+	margin-left: 10px;
+	background-image:url('../Images/Design/bg710x238.png');
+	background-position:right center;
+	border:solid thin #F0F0F0;
+	height:200px;
+}
+.imageSP
+{
+}
+.imageSP img
+{
+	width: 100%;
+}
+.imageSP a
+{
+	float: left;
+	height: 22px;
+	width: 100%;
+	font: 500 12px Arial;
+	font-weight: bold;
+	text-decoration: none;
+}
+.imageSP a span
+{
+	float: left;
+	margin: 5px;
+}
+.New
+{
+	}

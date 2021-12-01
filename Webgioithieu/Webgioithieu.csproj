@@ -1,0 +1,427 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C6D676B5-F80B-488C-B203-3558FD7DAF3E}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Webgioithieu</RootNamespace>
+    <AssemblyName>Webgioithieu</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44377</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Contact.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="Images\Design\200-Center.gif" />
+    <Content Include="Images\Design\200-Left.gif" />
+    <Content Include="Images\Design\200-Right.gif" />
+    <Content Include="Images\Design\aHover.gif" />
+    <Content Include="Images\Design\b1Vinamilk220110.swf" />
+    <Content Include="Images\Design\banner.png" />
+    <Content Include="Images\Design\Bannertop.png" />
+    <Content Include="Images\Design\bg.ltr.jpg" />
+    <Content Include="Images\Design\bottom.gif" />
+    <Content Include="Images\Design\DeMucTin.gif" />
+    <Content Include="Images\Design\DeMucTinRss.gif" />
+    <Content Include="Images\Design\h.gif" />
+    <Content Include="Images\Design\headMuc.png" />
+    <Content Include="Images\Design\Home.png" />
+    <Content Include="Images\Design\hoverLeft.png" />
+    <Content Include="Images\Design\hoverRight.png" />
+    <Content Include="Images\Design\ico.gif" />
+    <Content Include="Images\Design\IconMenu.gif" />
+    <Content Include="Images\Design\icon_arrow.gif" />
+    <Content Include="Images\Design\moitruongthudoxsd.gif" />
+    <Content Include="Images\Design\namdadangsh%2520copy.gif" />
+    <Content Include="Images\Design\nenMuc.gif" />
+    <Content Include="Images\Design\nentieude1.gif" />
+    <Content Include="Images\Design\nenTieude2.gif" />
+    <Content Include="Images\Design\newnew.gif" />
+    <Content Include="Images\Design\online.gif" />
+    <Content Include="Images\Design\RightHead.png" />
+    <Content Include="Images\Design\samsung_210_480.swf" />
+    <Content Include="Images\Design\TopMenu.gif" />
+    <Content Include="Images\Design\ul-L.png" />
+    <Content Include="Images\Design\ul-L1.png" />
+    <Content Include="Images\Design\Untitled-1.jpg" />
+    <Content Include="Images\Design\Untitled-1.png" />
+    <Content Include="Images\Design\vanthanh_420_120.swf" />
+    <Content Include="Images\Design\video-icon.gif" />
+    <Content Include="Images\Giaodien\Bannertop.png" />
+    <Content Include="Images\Giaodien\bg.ltr.jpg" />
+    <Content Include="Images\Giaodien\headMuc.png" />
+    <Content Include="Images\Giaodien\Home.png" />
+    <Content Include="Images\Giaodien\hoverLeft.png" />
+    <Content Include="Images\Giaodien\hoverRight.png" />
+    <Content Include="Images\Giaodien\nentieude1.gif" />
+    <Content Include="Images\Giaodien\nenTieude2.gif" />
+    <Content Include="Images\Giaodien\RightHead.png" />
+    <Content Include="Images\Giaodien\TopMenu.gif" />
+    <Content Include="Images\Giaodien\ul-L.png" />
+    <Content Include="Images\Giaodien\ul-L1.png" />
+    <Content Include="Images\Giaodien\Untitled-1.jpg" />
+    <Content Include="Images\imageSlide\1.jpg" />
+    <Content Include="Images\imageSlide\2.jpg" />
+    <Content Include="Images\imageSlide\284811img2.jpg" />
+    <Content Include="Images\imageSlide\3.jpg" />
+    <Content Include="Images\imageSlide\4.jpg" />
+    <Content Include="Images\imageSlide\416719news7.jpg" />
+    <Content Include="Images\imageSlide\435576news10.jpg" />
+    <Content Include="Images\imageSlide\5.jpg" />
+    <Content Include="Images\imageSlide\641906img1.jpg" />
+    <Content Include="Images\imageSlide\791902news3.jpg" />
+    <Content Include="Images\imageSlide\arrow-bg.png" />
+    <Content Include="Images\imageSlide\arrow-bg2.gif" />
+    <Content Include="Images\imageSlide\arrow-l.png" />
+    <Content Include="Images\imageSlide\arrow-r.png" />
+    <Content Include="Images\imageSlide\badgehot.png" />
+    <Content Include="Images\imageSlide\badgenew.png" />
+    <Content Include="Images\imageSlide\bg_trans.png" />
+    <Content Include="Images\imageSlide\body-bg.gif" />
+    <Content Include="Images\imageSlide\body-top.gif" />
+    <Content Include="Images\imageSlide\b_next.png" />
+    <Content Include="Images\imageSlide\b_prev.png" />
+    <Content Include="Images\imageSlide\grad-bg.gif" />
+    <Content Include="Images\imageSlide\grad-bg2.gif" />
+    <Content Include="Images\imageSlide\index.html" />
+    <Content Include="Images\imageSlide\load-indicator.gif" />
+    <Content Include="Images\imageSlide\lofthumbs\1.jpg" />
+    <Content Include="Images\imageSlide\lofthumbs\2.jpg" />
+    <Content Include="Images\imageSlide\lofthumbs\3.jpg" />
+    <Content Include="Images\imageSlide\lofthumbs\4.jpg" />
+    <Content Include="Images\imageSlide\lofthumbs\5.jpg" />
+    <Content Include="Images\imageSlide\popup_bg.png" />
+    <Content Include="Images\imageSlide\spinner.gif" />
+    <Content Include="Images\imageSlide\thumbl_980x340.png" />
+    <Content Include="Images\imageSlide\thumbl_980x340_002.png" />
+    <Content Include="Images\imageSlide\thumbl_980x340_003.png" />
+    <Content Include="Images\imageSlide\thumbl_980x340_004.png" />
+    <Content Include="Images\imageSlide\thumbl_980x340_006.png" />
+    <Content Include="Images\imageSlide\thumbl_980x340_007.png" />
+    <Content Include="Images\imageSlide\thumbl_980x340_008.png" />
+    <Content Include="Images\imageSlide\thumbs\thumbl_980x340.png" />
+    <Content Include="Images\imageSlide\thumbs\thumbl_980x340_002.png" />
+    <Content Include="Images\imageSlide\thumbs\thumbl_980x340_003.png" />
+    <Content Include="Images\imageSlide\thumbs\thumbl_980x340_004.png" />
+    <Content Include="Images\imageSlide\thumbs\thumbl_980x340_005.png" />
+    <Content Include="Images\imageSlide\thumbs\thumbl_980x340_006.png" />
+    <Content Include="Images\imageSlide\thumbs\thumbl_980x340_007.png" />
+    <Content Include="Images\imageSlide\thumbs\thumbl_980x340_008.png" />
+    <Content Include="Images\imageSlide\transparent_bg.png" />
+    <Content Include="Images\News\anninhnuoc.jpg" />
+    <Content Include="Images\News\bangha.JPG" />
+    <Content Include="Images\News\bao.jpg" />
+    <Content Include="Images\News\baos.jpeg" />
+    <Content Include="Images\News\chayrung.jpg" />
+    <Content Include="Images\News\chayrungthienan.jpg" />
+    <Content Include="Images\News\dienhatnhanh.jpg" />
+    <Content Include="Images\News\france.jpg" />
+    <Content Include="Images\News\giobao.jpeg" />
+    <Content Include="Images\News\hnnn.jpg" />
+    <Content Include="Images\News\intr.jpeg" />
+    <Content Include="Images\News\japaness.jpg" />
+    <Content Include="Images\News\lao.jpg" />
+    <Content Include="Images\News\matme.jpg" />
+    <Content Include="Images\News\muarap.jpg" />
+    <Content Include="Images\News\nangnong.jpg" />
+    <Content Include="Images\News\nong.jpg" />
+    <Content Include="Images\News\rung.jpg" />
+    <Content Include="Images\News\solomon.jpg" />
+    <Content Include="Images\SanPham\caycanh02.jpg" />
+    <Content Include="Manages\Icon\add-1-icon.png" />
+    <Content Include="Manages\Icon\Button-Help-icon.png" />
+    <Content Include="Manages\Icon\Button-Next-icon.png" />
+    <Content Include="Manages\Icon\cancel-icon.png" />
+    <Content Include="Manages\Icon\glossy-3d-blue-delete-icon.png" />
+    <Content Include="Manages\Icon\ico_available.gif" />
+    <Content Include="Manages\ImageManages\banner.gif" />
+    <Content Include="Manages\ImageManages\banner.jpg" />
+    <Content Include="Manages\ImageManages\banner.swf" />
+    <Content Include="Manages\ImageManages\bg.ltr.jpg" />
+    <Content Include="Manages\ImageManages\book.gif" />
+    <Content Include="Manages\ImageManages\bottom.gif" />
+    <Content Include="Manages\ImageManages\cog.gif" />
+    <Content Include="Manages\ImageManages\dropa_0.gif" />
+    <Content Include="Manages\ImageManages\dropba_1.gif" />
+    <Content Include="Manages\ImageManages\dropb_0.gif" />
+    <Content Include="Manages\ImageManages\dropb_1.gif" />
+    <Content Include="Manages\ImageManages\drop_0.gif" />
+    <Content Include="Manages\ImageManages\drop_1.gif" />
+    <Content Include="Manages\ImageManages\edit.gif" />
+    <Content Include="Manages\ImageManages\email.gif" />
+    <Content Include="Manages\ImageManages\folder.gif" />
+    <Content Include="Manages\ImageManages\home.gif" />
+    <Content Include="Manages\ImageManages\house.gif" />
+    <Content Include="Manages\ImageManages\image_drop_0a.gif" />
+    <Content Include="Manages\ImageManages\image_drop_0b.gif" />
+    <Content Include="Manages\ImageManages\image_drop_1a.gif" />
+    <Content Include="Manages\ImageManages\image_drop_1b.gif" />
+    <Content Include="Manages\ImageManages\image_drop_back.gif" />
+    <Content Include="Manages\ImageManages\info.gif" />
+    <Content Include="Manages\ImageManages\key.gif" />
+    <Content Include="Manages\ImageManages\links.gif" />
+    <Content Include="Manages\ImageManages\menuTrai.gif" />
+    <Content Include="Manages\ImageManages\monitor.gif" />
+    <Content Include="Manages\ImageManages\nanBanner.jpg" />
+    <Content Include="Manages\ImageManages\nentrenBanner.jpg" />
+    <Content Include="Manages\ImageManages\page.gif" />
+    <Content Include="Manages\ImageManages\paint.gif" />
+    <Content Include="Manages\ImageManages\people.gif" />
+    <Content Include="Manages\ImageManages\qmark.gif" />
+    <Content Include="Manages\ImageManages\shop.gif" />
+    <Content Include="Manages\ImageManages\stop.gif" />
+    <Content Include="Manages\ImageManages\text.gif" />
+    <Content Include="Manages\ImageManages\transparent.gif" />
+    <Content Include="Manages\ImageManages\Untitled-1.jpg" />
+    <Content Include="Manages\ImageManages\world.gif" />
+    <Content Include="Manages\pageDangky.aspx" />
+    <Content Include="Manages\pageDangnhap.aspx" />
+    <Content Include="Manages\pageQuanlybaiviet.aspx" />
+    <Content Include="Manages\pageSuabaiviet.aspx" />
+    <Content Include="Manages\pageThembaiviet.aspx" />
+    <Content Include="Manages\pageTintuc.aspx" />
+    <Content Include="Manages\pageTrangchu.aspx" />
+    <Content Include="Manages\styleManages\MasterManage.css" />
+    <Content Include="Manages\styleManages\style-Manager-Menu.css" />
+    <Content Include="Manages\styleManages\style-Manager.css" />
+    <Content Include="New.aspx" />
+    <Content Include="News.aspx" />
+    <Content Include="Style\Commercial.css" />
+    <Content Include="Style\cssDefault.css" />
+    <Content Include="Style\cssMasterPage.css" />
+    <Content Include="Style\cssTieudiem.css" />
+    <Content Include="Style\OtherPage.css" />
+    <Content Include="Style\slide.css" />
+    <Content Include="ThietBi.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ThietBi.aspx.cs">
+      <DependentUpon>ThietBi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ThietBi.aspx.designer.cs">
+      <DependentUpon>ThietBi.aspx</DependentUpon>
+    </Compile>
+    <Content Include="App_Code\Connectdb.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Connectdb.dbml</DependentUpon>
+    </Content>
+    <Compile Include="Contact.aspx.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contact.aspx.designer.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manages\Manages.Master.cs">
+      <DependentUpon>Manages.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manages\Manages.Master.designer.cs">
+      <DependentUpon>Manages.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Manages\pageDangky.aspx.cs">
+      <DependentUpon>pageDangky.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manages\pageDangky.aspx.designer.cs">
+      <DependentUpon>pageDangky.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manages\pageDangnhap.aspx.cs">
+      <DependentUpon>pageDangnhap.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manages\pageDangnhap.aspx.designer.cs">
+      <DependentUpon>pageDangnhap.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manages\pageQuanlybaiviet.aspx.cs">
+      <DependentUpon>pageQuanlybaiviet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manages\pageQuanlybaiviet.aspx.designer.cs">
+      <DependentUpon>pageQuanlybaiviet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manages\pageSuabaiviet.aspx.cs">
+      <DependentUpon>pageSuabaiviet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manages\pageSuabaiviet.aspx.designer.cs">
+      <DependentUpon>pageSuabaiviet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manages\pageThembaiviet.aspx.cs">
+      <DependentUpon>pageThembaiviet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manages\pageThembaiviet.aspx.designer.cs">
+      <DependentUpon>pageThembaiviet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manages\pageTintuc.aspx.cs">
+      <DependentUpon>pageTintuc.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manages\pageTintuc.aspx.designer.cs">
+      <DependentUpon>pageTintuc.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manages\pageTrangchu.aspx.cs">
+      <DependentUpon>pageTrangchu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manages\pageTrangchu.aspx.designer.cs">
+      <DependentUpon>pageTrangchu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPage.Master.cs">
+      <DependentUpon>MasterPage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPage.Master.designer.cs">
+      <DependentUpon>MasterPage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="New.aspx.cs">
+      <DependentUpon>New.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="New.aspx.designer.cs">
+      <DependentUpon>New.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="News.aspx.cs">
+      <DependentUpon>News.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="News.aspx.designer.cs">
+      <DependentUpon>News.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MasterPage.Master" />
+    <Content Include="Manages\Manages.Master" />
+    <Content Include="App_Code\Connectdb.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>Connectdb.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+    <None Include="App_Code\Connectdb.dbml.layout">
+      <DependentUpon>Connectdb.dbml</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Images\Design\NewFolder1\" />
+    <Folder Include="Model\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>61434</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44377/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
